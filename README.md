@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/banner.jpg" alt="Banner" width="100%">
+  <img src="/src/lib/assets/banner.jpg" alt="Banner" width="100%">
   
   <h1>🌎​🌐​ Hello, World! I'm Aris</h1>
   <h3>Frontend Web Developer | UI/UX Designer</h3>
