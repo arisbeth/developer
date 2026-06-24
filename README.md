@@ -1,42 +1,41 @@
-# sv
+<div align="center">
+  <img src="YOUR_BANNER_IMAGE_URL_HERE" alt="Portfolio Banner" width="100%">
+  
+  <h1>👋 Hello, World! I'm Aris</h1>
+  <h3>Frontend Web Developer | UI/UX Designer</h3>
+  
+  <p>I'm dedicated to building efficient, accessible, and user-centric digital experiences.</p>
+  <p>Responsive websites, CMS-driven websites and digital experiences for editorial, cultural and commercial projects. Skilled in frontend architecture, CMS integration and scalable UI implementation using SvelteKit, Craft CMS, WordPress and modern development workflows.</p>
+  
+  <!-- Social Media Links -->
+  <p>
+    <a href="https://arisbeth.github.io/developer">🌐 Website</a> &nbsp;&bull;&nbsp;
+    <a href="https://linkedin.com/arisbeth-hern%C3%A1ndez-a64926b7/">💼 LinkedIn</a> &nbsp;&bull;&nbsp; 
+    <a href="https://github.com/arisbeth">🐙 GitHub</a> &nbsp;&bull;&nbsp;
+    <a href="mailto:arisbeth.hg@gmail.com">✉️ Email</a>
+  </p>
+</div>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+---
 
-## Creating a project
+## 🚀 About
 
-If you're seeing this, you've probably already done this step. Congrats!
+I specialize in turning complex problems into beautiful, intuitive, and highly functional web applications. Whether it's crafting front-end interfaces or engineering robust back-end systems, I love every part of the development lifecycle.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## 🛠️ Skills & Technologies
 
-To recreate this project with the same configuration:
+Here are some of the core tools and languages I work with:
 
-```sh
-# recreate this project
-npx sv@0.15.3 create --template minimal --types ts --add prettier eslint --install npm developer
-```
+- **Frontend:** Svelte · SvelteKit · JavaScript · HTML5 · CSS3 · Tailwind CSS · Responsive Design
+- **Backend | CMS & Integration:** Node.jsGraphQL · Craft CMS · WordPress · WordPress (Headless CMS) · Twig · GraphQL · Shopify
+- **Tools & Workflow:** Git · DDEV · OrbStack · Vite · npm · Deployment Workflows
+- **TDesign & UI: Figma:** · Adobe XD · Sketch · Zeplin · Wireframes · Accessibility
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 📫 Let's Connect
 
-```sh
-npm run dev
+I’m always open to discussing new projects, freelance opportunities, or just having a chat about tech!
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Feel free to reach out via [Email](mailto:arisbeth.hg@gmail.com)
+<!-- - Connect with me on [LinkedIn](https://linkedin.com) -->
