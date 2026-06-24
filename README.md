@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="YOUR_BANNER_IMAGE_URL_HERE" alt="Portfolio Banner" width="100%">
+  <img src="/banner.jpg" alt="Banner" width="100%">
   
-  <h1>👋 Hello, World! I'm Aris</h1>
+  <h1>🌎​🌐​ Hello, World! I'm Aris</h1>
   <h3>Frontend Web Developer | UI/UX Designer</h3>
   
   <p>I'm dedicated to building efficient, accessible, and user-centric digital experiences.</p>
-  <p>Responsive websites, CMS-driven websites and digital experiences for editorial, cultural and commercial projects. Skilled in frontend architecture, CMS integration and scalable UI implementation using SvelteKit, Craft CMS, WordPress and modern development workflows.</p>
+  <p>Responsive CMS-driven websites and digital experiences for editorial, cultural and commercial projects. Skilled in frontend architecture, CMS integration and scalable UI implementation using SvelteKit, Craft CMS, WordPress and modern development workflows.</p>
   
   <!-- Social Media Links -->
   <p>
@@ -29,7 +29,7 @@ Here are some of the core tools and languages I work with:
 - **Frontend:** Svelte · SvelteKit · JavaScript · HTML5 · CSS3 · Tailwind CSS · Responsive Design
 - **Backend | CMS & Integration:** Node.jsGraphQL · Craft CMS · WordPress · WordPress (Headless CMS) · Twig · GraphQL · Shopify
 - **Tools & Workflow:** Git · DDEV · OrbStack · Vite · npm · Deployment Workflows
-- **TDesign & UI: Figma:** · Adobe XD · Sketch · Zeplin · Wireframes · Accessibility
+- **Design & UI: Figma:** · Adobe XD · Sketch · Zeplin · Wireframes · Accessibility
 
 ---
 
