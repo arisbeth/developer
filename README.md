@@ -1,7 +1,7 @@
 <div align="center">
   <img src="/src/lib/assets/banner.jpg" alt="Banner" width="100%">
   
-  <h1>​Hello 🌎​ I'm Arisbeth</h1>
+  <h1>​Hello 🌎​🌍​🌏​ I'm Arisbeth</h1>
   <h3>Frontend Web Developer & UI/UX Designer</h3>
   
   <p>I'm dedicated to building efficient, accessible, and user-centric digital experiences.</p>
