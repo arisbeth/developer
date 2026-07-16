@@ -35,7 +35,7 @@
 <style>
 	.card {
 		position: relative;
-		flex: 0 0 clamp(16rem, 32vw, 28rem);
+		flex: 0 0 clamp(16rem, 36vw, 32rem);
 		overflow: hidden;
 		background: #16171d;
 		transition:
@@ -54,6 +54,16 @@
 		width: 100%;
 		aspect-ratio: 16 / 9;
 		object-fit: cover;
+	}
+
+	img {
+		transition: opacity 0.3s ease-in-out;
+		opacity: 0.5;
+		mix-blend-mode: luminosity;
+	}
+	.card:hover img {
+		opacity: 1;
+		mix-blend-mode: normal;
 	}
 
 	.generated-preview {
@@ -89,7 +99,7 @@
 	p {
 		margin-top: 0.4rem;
 		color: #00b7a7;
-		font-size: 0.66rem;
+		font-size: 0.68rem;
 		letter-spacing: 0.08em;
 	}
 </style>

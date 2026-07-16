@@ -4,36 +4,60 @@
 	import image_2 from '$lib/assets/projects/image_2.jpg';
 	import image_3 from '$lib/assets/projects/image_3.jpg';
 	import image_4 from '$lib/assets/projects/image_4.jpg';
+	import image_5 from '$lib/assets/projects/image_5.jpg';
+	import image_6 from '$lib/assets/projects/image_6.jpg';
+	import image_7 from '$lib/assets/projects/image_7.jpg';
 	import ProjectCard from './ProjectCard.svelte';
 
 	const projects = [
 		{
 			title: 'Camp Aranzazu',
 			link: 'https://camparanzazu.org',
-			category: 'Craft CMS + Twig Backend + Custom Tailwind Frontend',
+			category: 'Craft CMS + PHP Twig Template Engine + Custom Frontend Development',
 			image: image_1,
 			accent: '#00b7a7'
 		},
 		{
 			title: 'Little Woodrows',
 			link: 'https://littlewoodrows.com/',
-			category: 'WordPress + PHP Backend + Custom WordPress Theme Frontend',
+			category: 'WordPress + PHP Twig Template Engine + Custom Theme Frontend Development',
 			image: image_2,
 			accent: '#f5a7d7'
 		},
 		{
-			title: 'Cafe MomentumAnnual Report',
+			title: 'Cafe Momentum',
 			link: 'https://annualreport.cafemomentum.org/',
-			category: 'SvelteKit + WPGraphQL + Headless WordPress Frontend',
+			category: 'Headless WordPress + SvelteKit + WPGraphQL + Custom Theme Frontend Development',
 			image: image_3,
 			accent: '#ff5b2e'
 		},
 		{
 			title: 'Kensington',
 			link: 'https://kensingtondev.com/',
-			category: 'Craft CMS + Backend Twig + Custom Tailwind Frontend',
+			category: 'Craft CMS + PHP Twig Template Engine + Custom Frontend Development',
 			image: image_4,
 			accent: '#6877ff'
+		},
+		{
+			title: "PJ Whelihan's",
+			link: 'https://pjspub.com/',
+			category: 'Craft CMS + PHP Twig Template Engine + Custom Frontend Development',
+			image: image_5,
+			accent: '#f5a7d7'
+		},
+		{
+			title: 'Mambo',
+			link: 'https://mamboseafood.com/',
+			category: 'Craft CMS + PHP Twig Template Engine + Custom Frontend Development',
+			image: image_6,
+			accent: '#f5a7d7'
+		},
+		{
+			title: 'EEPB',
+			link: 'https://www.eepb.com/',
+			category: 'Craft CMS + PHP Backend Twig + Custom Frontend Development',
+			image: image_7,
+			accent: '#f5a7d7'
 		}
 	];
 </script>
@@ -41,14 +65,14 @@
 <div class="work" use:reveal>
 	<h2>>_ Projects</h2>
 
-	<div class="rail" aria-label="Portfolio projects">
+	<div class="rail" aria-label="Portfolio projects" use:reveal={{ delay: 120 }}>
 		{#each projects as project}
 			<ProjectCard {...project} />
 		{/each}
 	</div>
 
 	<p class="caption">
-		Front-end development & CMS Integration<br />CTTO ©
+		Crafting responsive, accessible, and engaging web experiences. CTTO ©
 		<a
 			class="black-magic"
 			href="https://heyblackmagic.com/about"
@@ -87,7 +111,7 @@
 		max-width: 25rem;
 		margin: clamp(2.8rem, 6vw, 5rem) clamp(1.25rem, 9vw, 9rem) 0 auto;
 		color: #f7f7f7;
-		font-size: clamp(0.66rem, 1.3vw, 0.82rem);
+		font-size: clamp(0.5rem, 1vw, 0.75rem);
 		letter-spacing: 0.1em;
 		line-height: 1.8;
 		text-align: right;

@@ -113,6 +113,10 @@
 		color: #26272c;
 	}
 
+	.contact-inner {
+		width: 100%;
+	}
+
 	h2 {
 		margin: 0 0 clamp(3rem, 6vw, 4.6rem);
 		font-size: clamp(1rem, 2vw, 1.35rem);
