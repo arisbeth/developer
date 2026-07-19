@@ -75,4 +75,10 @@
 
 		will-change: transform;
 	}
+
+	@media (max-width: 720px) {
+		.illustration {
+			width: 100vw;
+		}
+	}
 </style>

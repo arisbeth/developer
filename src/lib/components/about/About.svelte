@@ -58,6 +58,7 @@
 
 <style>
 	.intro {
+		width: 100vw;
 		position: relative;
 		display: grid;
 		min-height: 36rem;
@@ -67,7 +68,6 @@
 
 	.art {
 		position: absolute;
-		/* bottom: 2rem; */
 		left: clamp(0rem, 3vw, 4rem);
 		opacity: 0.82;
 	}
@@ -195,12 +195,6 @@
 
 		.name-card {
 			width: 91vw;
-		}
-
-		.art {
-			bottom: 5rem;
-			left: -7rem;
-			transform: scale(0.82);
 		}
 	}
 </style>
