@@ -190,7 +190,7 @@
 
 	@media (max-width: 720px) {
 		.intro {
-			min-height: 30rem;
+			min-height: 0;
 		}
 
 		.name-card {

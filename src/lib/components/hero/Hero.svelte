@@ -9,9 +9,7 @@
 	<BackgroundNoise />
 
 	<div class="hero-copy">
-		<p class="eyebrow" use:splitText={{ stagger: 18 }}>
-			Turning ideas into interactive experiences
-		</p>
+		<p class="eyebrow" use:splitText={{ stagger: 18 }}>Turning ideas into experiences</p>
 		<h1><span>&gt;</span><TerminalCursor /> building digital atmosphere</h1>
 		<p class="subtitle">Motion, interaction and modern frontend systems.</p>
 	</div>
