@@ -158,7 +158,7 @@
 		aria-label="Mobile navigation"
 		onclick={(event) => event.stopPropagation()}
 	>
-		<p class="mobile-title">arisbeth developer</p>
+		<p class="mobile-title">WELCOME :)</p>
 
 		{#each navItems as item, index}
 			<a
@@ -203,7 +203,7 @@
 
 		padding: 0.9rem 1.4rem;
 
-		/* border-radius: 999px; */
+		border-radius: 999px;
 
 		transform-origin: center;
 
@@ -222,10 +222,18 @@
    SCROLLED
 ========================================================== */
 
-	.site-header.scrolled .nav-wrapper::before {
-		background: rgba(0, 0, 0, 0.75);
-		backdrop-filter: blur(30px);
-		-webkit-backdrop-filter: blur(30px);
+	.site-header.scrolled .nav-wrapper {
+		background: rgba(16, 16, 16, 0.55);
+
+		backdrop-filter: blur(18px);
+
+		-webkit-backdrop-filter: blur(18px);
+
+		/* border: 1px solid rgba(255, 255, 255, 0.08); */
+
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+
+		mix-blend-mode: normal;
 	}
 
 	/* ==========================================================
@@ -404,7 +412,7 @@
 		justify-content: center;
 
 		background:
-			linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)),
+			linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
 			rgba(8, 8, 8, 0.74);
 
 		backdrop-filter: blur(28px);
@@ -567,7 +575,7 @@
 		}
 
 		.mobile-nav a {
-			font-size: 1.25rem;
+			font-size: 2.2rem;
 		}
 	}
 

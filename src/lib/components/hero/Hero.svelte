@@ -71,6 +71,12 @@
 		letter-spacing: 0.08em;
 	}
 
+	@media (max-width: 768px) {
+		.hero-shell {
+			padding-bottom: 0;
+		}
+	}
+
 	:global(.split-letter) {
 		display: inline-block;
 		animation: letter-in 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
