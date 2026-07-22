@@ -21,7 +21,7 @@
 		display: grid;
 		min-height: 90vh;
 		place-items: center;
-		padding: 7rem 5rem 5rem;
+		padding: 0 clamp(1.5rem, 5vw, 3.6rem);
 	}
 
 	.hero-copy {

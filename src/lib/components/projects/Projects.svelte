@@ -63,32 +63,27 @@
 </script>
 
 <div class="work" use:reveal>
-	<div class="work-container">
-		<h2>>_ Projects</h2>
+	<h2>>_ Projects</h2>
 
-		<div class="rail" aria-label="Portfolio projects" use:reveal={{ delay: 120 }}>
-			{#each projects as project}
-				<ProjectCard {...project} />
-			{/each}
-		</div>
-
-		<p class="caption">
-			Crafting responsive, accessible, and engaging web experiences. CTTO ©
-			<a
-				class="black-magic"
-				href="https://heyblackmagic.com"
-				target="_blank"
-				rel="noopener noreferrer">Black Magic</a
-			>
-		</p>
+	<div class="rail" aria-label="Portfolio projects" use:reveal={{ delay: 120 }}>
+		{#each projects as project}
+			<ProjectCard {...project} />
+		{/each}
 	</div>
+
+	<p class="caption">
+		Crafting responsive, accessible, and engaging web experiences. CTTO ©
+		<a
+			class="black-magic"
+			href="https://heyblackmagic.com"
+			target="_blank"
+			rel="noopener noreferrer">Black Magic</a
+		>
+	</p>
 </div>
 
 <style>
 	.work {
-		min-height: 90vh;
-		display: flex;
-		align-items: center;
 		padding: clamp(4rem, 9vw, 7rem) 0 clamp(4rem, 9vw, 6.4rem);
 	}
 
