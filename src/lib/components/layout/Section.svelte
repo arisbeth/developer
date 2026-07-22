@@ -22,6 +22,10 @@
 		color: #f7f7f7;
 	}
 
+	#about {
+		overflow: visible;
+	}
+
 	.light {
 		background: #f8f8f6;
 		color: #26272c;

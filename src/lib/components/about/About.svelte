@@ -67,8 +67,7 @@
 
 	.art {
 		position: absolute;
-		left: clamp(0rem, 3vw, 4rem);
-		opacity: 0.82;
+		bottom: 0;
 	}
 
 	.name-card {
@@ -127,9 +126,9 @@
 
 	.summary {
 		max-width: 40rem;
-		margin: 6.8rem auto 6rem;
-		padding: 0 1.25rem;
+		padding: 8rem 5vw;
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	h3 {
@@ -191,7 +190,6 @@
 		.intro {
 			padding-bottom: 10rem;
 		}
-
 		.name-card {
 			width: 91vw;
 		}

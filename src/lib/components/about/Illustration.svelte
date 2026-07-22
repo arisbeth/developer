@@ -58,7 +58,7 @@
 
 	.desk {
 		position: absolute;
-		right: 0;
+		left: 0;
 		bottom: 0;
 		width: 100%;
 		height: auto;

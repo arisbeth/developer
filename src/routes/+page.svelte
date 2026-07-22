@@ -72,7 +72,7 @@
 		left: 0;
 		z-index: 0;
 		height: min(64vh, 34rem);
-		background: #f3a7dc;
+		background: #f8f8f6;
 		content: '';
 		transform: scaleY(var(--about-bg-progress));
 		transform-origin: bottom;
