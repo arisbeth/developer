@@ -75,7 +75,7 @@
 		Crafting responsive, accessible, and engaging web experiences. CTTO ©
 		<a
 			class="black-magic"
-			href="https://heyblackmagic.com/about"
+			href="https://heyblackmagic.com"
 			target="_blank"
 			rel="noopener noreferrer">Black Magic</a
 		>

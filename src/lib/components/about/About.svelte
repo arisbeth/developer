@@ -43,7 +43,7 @@
 		Frontend Web Developer and UI Designer with experience building responsive, CMS-driven websites
 		and digital experiences for editorial, cultural and commercial projects. Skilled in frontend
 		architecture, CMS integration and scalable UI implementation using SvelteKit, Craft CMS,
-		WordPress, Ally and modern development workflows.
+		WordPress, A11y and modern development workflows.
 	</p>
 	<nav class="socials" aria-label="Social media">
 		{#each socialLinks as social}

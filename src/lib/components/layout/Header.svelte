@@ -158,7 +158,7 @@
 		aria-label="Mobile navigation"
 		onclick={(event) => event.stopPropagation()}
 	>
-		<p class="mobile-title">WELCOME :)</p>
+		<p class="mobile-title">arisbeth dev</p>
 
 		{#each navItems as item, index}
 			<a
@@ -411,14 +411,6 @@
 
 		justify-content: center;
 
-		background:
-			linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
-			rgba(8, 8, 8, 0.74);
-
-		backdrop-filter: blur(28px);
-
-		-webkit-backdrop-filter: blur(28px);
-
 		opacity: 0;
 
 		pointer-events: none;
@@ -432,8 +424,15 @@
 
 	.mobile-overlay.open {
 		opacity: 1;
-
 		pointer-events: auto;
+
+		background:
+			linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
+			rgba(8, 8, 8, 0.74);
+
+		backdrop-filter: blur(28px);
+
+		-webkit-backdrop-filter: blur(28px);
 	}
 
 	/* ==========================================================
