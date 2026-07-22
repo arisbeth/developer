@@ -181,15 +181,16 @@
 	.site-header {
 		position: fixed;
 		inset: 0 0 auto 0;
-
 		z-index: 100;
-
 		display: flex;
 		justify-content: center;
-
-		padding: 1rem;
-
 		pointer-events: none;
+		padding: 1rem;
+		transition: padding 0.35s ease;
+	}
+
+	.site-header.scrolled {
+		padding: 0;
 	}
 
 	.nav-wrapper {
@@ -203,7 +204,7 @@
 
 		padding: 0.9rem 1.4rem;
 
-		border-radius: 999px;
+		/* border-radius: 999px; */
 
 		transform-origin: center;
 
@@ -225,9 +226,9 @@
 	.site-header.scrolled .nav-wrapper {
 		background: rgba(16, 16, 16, 0.55);
 
-		backdrop-filter: blur(18px);
+		backdrop-filter: blur(8px);
 
-		-webkit-backdrop-filter: blur(18px);
+		-webkit-backdrop-filter: blur(8px);
 
 		/* border: 1px solid rgba(255, 255, 255, 0.08); */
 
@@ -514,6 +515,9 @@
 		.mobile-overlay {
 			display: none;
 		}
+		.desktop-nav {
+			font-size: 0.75rem;
+		}
 	}
 
 	/* A11y */
@@ -574,7 +578,7 @@
 		}
 
 		.mobile-nav a {
-			font-size: 2.2rem;
+			font-size: 1.85rem;
 		}
 	}
 
@@ -584,8 +588,7 @@
 
 	@media (min-width: 1600px) {
 		.desktop-nav {
-			font-size: 0.78rem;
-
+			font-size: 0.8rem;
 			gap: 4rem;
 		}
 	}
@@ -593,20 +596,6 @@
 	/* ==========================================================
    GLASS SHINE
 ========================================================== */
-
-	.site-header.scrolled .nav-wrapper::before {
-		content: '';
-
-		position: absolute;
-
-		inset: 0;
-
-		border-radius: inherit;
-
-		/* background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); */
-
-		pointer-events: none;
-	}
 
 	/* ==========================================================
    PERFORMANCE

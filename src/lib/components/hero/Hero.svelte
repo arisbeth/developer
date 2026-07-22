@@ -19,7 +19,7 @@
 	.hero-shell {
 		position: relative;
 		display: grid;
-		min-height: 85vh;
+		min-height: 90vh;
 		place-items: center;
 		padding: 7rem 1.25rem 5rem;
 	}

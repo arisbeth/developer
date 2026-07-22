@@ -61,7 +61,6 @@
 		width: 100vw;
 		position: relative;
 		display: grid;
-		min-height: 36rem;
 		align-items: end;
 		padding: clamp(4rem, 11vw, 8rem) 0 clamp(4rem, 11vw, 8rem);
 	}
@@ -190,11 +189,17 @@
 
 	@media (max-width: 720px) {
 		.intro {
-			min-height: 100vw;
+			padding-bottom: 10rem;
 		}
 
 		.name-card {
 			width: 91vw;
+		}
+	}
+
+	@media (min-width: 1920px) {
+		.intro {
+			min-height: 700px;
 		}
 	}
 </style>
