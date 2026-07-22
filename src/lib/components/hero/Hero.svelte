@@ -21,7 +21,7 @@
 		display: grid;
 		min-height: 90vh;
 		place-items: center;
-		padding: 7rem 1.25rem 5rem;
+		padding: 7rem 5rem 5rem;
 	}
 
 	.hero-copy {
@@ -74,6 +74,10 @@
 	@media (max-width: 768px) {
 		.hero-shell {
 			padding-bottom: 0;
+		}
+		.eyebrow {
+			max-width: 14rem;
+			margin: auto;
 		}
 	}
 
